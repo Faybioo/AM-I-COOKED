@@ -1,0 +1,14 @@
+# Core data / ML
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+
+# Notebook tooling
+jupyter
+nbstripout
+
+# Interactive tool (adjust once app framework is decided — see app/README.md)
+streamlit

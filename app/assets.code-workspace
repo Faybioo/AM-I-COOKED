@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "../../../Downloads/app-neon-update/assets"
+		},
+		{
+			"name": "AM-I-COOKED",
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/app-with-sounds/assets"
+		}
+	],
+	"settings": {}
+}

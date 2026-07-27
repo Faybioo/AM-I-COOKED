@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Data (don't commit datasets — they're big and often licensed) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.xlsx
+
+# --- Models / large artifacts ---
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# --- Env / secrets ---
+.env
+.env.local
+*.key
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Slide exports (keep source, not every render) ---
+slides/*.jpg
+slides/*.png
+!slides/.gitkeep
